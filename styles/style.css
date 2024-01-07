@@ -61,6 +61,7 @@ main{
     font-size: 88px;
     font-weight: 700;
     color: #F00;
+    margin-bottom: 40px;
 }
 .offer-heading{
     font-size: 24px;
@@ -72,3 +73,34 @@ main{
 }
 /* offer section end */
 
+/* midnight party section start */
+.party-container{
+    background: linear-gradient(90deg, #14002e 0%, rgba(0, 0, 0, 0.514) 100%), url('../resources/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    margin:50px auto;
+    height: 500px;
+    border-radius: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+.party-sub-container{
+    padding: 126px;
+    width: 500px;
+}
+
+.party-title{
+    font-size: 64px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.party-discription{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.80);
+    padding-bottom: 30px;
+}
+.party-join{
+    text-decoration: none;
+    color: #fff;
+}
+/* midnight party section End */
