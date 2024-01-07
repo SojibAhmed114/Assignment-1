@@ -103,4 +103,46 @@ main{
     text-decoration: none;
     color: #fff;
 }
+
 /* midnight party section End */
+
+/* place section start */
+.place-container{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin:100px auto;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+}
+.place-subcontainer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+.plce-info{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.place-btn{
+    background-color: red;
+    padding: 16PX 32PX;
+    border-radius: 5px;
+    margin: 30px;
+    border: 0;
+}
+.place-btn a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.info-span{
+    color: #F00;
+}
+/* place section end */
