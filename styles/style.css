@@ -115,8 +115,9 @@ main{
     color: #fff;
     font-size: 20px;
 }
-.party-container:hover .party-title{
-    color: #F00;
+.party-container:hover .party-join{
+    color: rgb(0, 255, 76);
+    letter-spacing: 1px;
 }
 
 /* midnight party section End */
@@ -223,5 +224,66 @@ main{
     letter-spacing: 2px;
 }
 /* awesome portfolio hover end*/
-
 /* awesome portfolio design end */
+
+/* Subscribe Newsletter design start  */
+.Subscribe-Newsletter-Container{
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    height: 600px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.newstitle-content{
+    max-width: 900px;
+}
+
+.newsletter-heading{
+    padding: 20px 0;
+    font-family: 'Merriweather', serif;  
+    font-size: 48px;
+}
+.newsletter-discriptiom{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    padding-bottom: 20px ;
+}
+
+/* search bar design */
+.search-bar{
+    width: 600px;
+   
+}
+input{
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="text"] {
+    background-color: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px 0 0 50px;
+}
+input[type="submit"] {
+    background-color: #f00;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 0px 50px  50px 0;
+    margin-left: -5px;
+    transition: 0.5s;
+}
+
+/* hover effect newsletter  */
+input[type="submit"]:hover {
+    background-color: rgba(255, 0, 0, 0.158);
+    color: #ff0000;
+}
