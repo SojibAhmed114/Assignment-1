@@ -217,9 +217,7 @@ main{
     justify-content: center;
 }
 .holiday-section-subcontainer{
-    height: 100px;
     width: 100%;
-    background-color: blue;
     text-align: center;
 }
 .holiday-title{
@@ -240,7 +238,9 @@ main{
     font-size: 20px;
 }
 .holiday-photo-container{
-    
+    width: 100%;
+    height: 300px;
+    background-color: red;
 }
 /* Holiday section end */
 
@@ -282,7 +282,6 @@ main{
     display: inline-grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    
 }
 .awesome-photo{
     width: 100%;
