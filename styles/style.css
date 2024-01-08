@@ -150,29 +150,64 @@ main{
 
 /* awesome portfolio design start */
 .awesome-portfolio-container{
-    background-color: red;
-    height: 500px;
+    /* background-color: #0eff87; */
+    height: 850px;
     border-radius: 16px;
     position: relative;
 }
-.awesome-portfolio-box{
-    background-color: blue;
+
+.awesome-portfolio-subcontainer{
     position: absolute;
-    width: 70%;
-
+    width: 100%;
 }
 
+.awesome-rows{
+    width: 100%;
+    margin-bottom: 5px;
+}
 .awesome-portfolio-text{
+    font: 24px;
     color: #F00;
-    font-size: 24px;
 }
-.awesome-portfolio-texts{
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.60);
-}
+
 .awesome-portfolio-title{
     color: #070211;
     font-size: 48px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif;  
     padding: 20px 0;
+    transition: .5s ease-in-out;
 }
+.awesome-portfolio-texts{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.contentbox{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    
+}
+.awesome-photo{
+    width: 100%;
+    transition: .5s;
+
+}
+
+.photo-size{
+    width: 390px;
+    height: 300px; 
+}
+
+/* awesome portfolio hover */
+.awesome-photo:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+    transform: scale(1.1);
+}
+.awesome-portfolio-title:hover{
+    color: #F00;
+    letter-spacing: 2px;
+}
+/* awesome portfolio hover end*/
+
+/* awesome portfolio design end */
