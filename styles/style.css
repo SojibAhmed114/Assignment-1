@@ -257,7 +257,6 @@ main{
 /* search bar design */
 .search-bar{
     width: 600px;
-   
 }
 input{
     font-size: 20px;
@@ -292,5 +291,21 @@ input[type="submit"]:hover {
 /* footer section design start */
 footer{
     background-color: #070211;
-    height: 500px;
+    height: 1000px;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-container{
+    position: absolute;
+    width: 90%;
+    height: 800px;
+    background-color: #fff;
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; */
 }
