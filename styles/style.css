@@ -42,12 +42,17 @@
     font-family: 'Merriweather', serif;
     color: #fff;
 }
+
+.main-header:hover{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Bannermage.png');
+    background-position: center;
+    background-size: cover;
+}
 /* header design end */
 
 /* main section stat */
 /* main section adjustment */
 main{
-    /* background:rebeccapurple; */
     margin:120px auto;
     width: 90%;
 }
@@ -70,6 +75,12 @@ main{
 .offer-categories{
     font-size: 48px;
     font-weight: bold;
+}
+.offer-photo{
+    transition: .5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.offer-photo:hover{
+    transform: scale(1.1);
 }
 /* offer section end */
 
@@ -103,6 +114,9 @@ main{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+}
+.party-container:hover .party-title{
+    color: #F00;
 }
 
 /* midnight party section End */
