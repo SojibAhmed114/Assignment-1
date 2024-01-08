@@ -287,3 +287,10 @@ input[type="submit"]:hover {
     background-color: rgba(255, 0, 0, 0.158);
     color: #ff0000;
 }
+/* main section end */
+
+/* footer section design start */
+footer{
+    background-color: #070211;
+    height: 500px;
+}
