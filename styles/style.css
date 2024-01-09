@@ -205,6 +205,12 @@ main{
     color: red;
     padding-bottom: 16px;
 }
+
+.comng-soon-pic{
+    border:5px solid red ;
+    border-radius: 350px;
+    padding: 10px;
+}
 /* coming soon section end */
 
 /* holiday section start */
@@ -281,7 +287,6 @@ main{
 .awesome-photo{
     width: 100%;
     transition: .5s;
-
 }
 
 .photo-size{
